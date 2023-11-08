@@ -1,0 +1,20 @@
+{
+  "setup": 
+  {
+    "can_iface": "vcan0",
+    "can_data_file": "filename.json",
+    "screen_resolution": {"x": 800, "y": 480}
+  },
+  "page_name": 
+  [
+    {"value_name": "test_frame", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+    {"value_name": "test_frame", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0}
+  ],
+  "page_name_2": 
+  [
+    {"value_name": "test_frame", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+    {"value_name": "test_frame", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+    {"value_name": "test_frame", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+    {"value_name": "test_frame", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0}
+  ]
+}

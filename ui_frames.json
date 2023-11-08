@@ -1,0 +1,25 @@
+{
+  "setup": 
+    {
+      "can_iface": "vcan0",
+      "can_data_file": "can_frames.json",
+      "screen_resolution": {"w": 800, "h": 480}
+    },
+  "page_name": 
+    [
+      {"name": "rpm",   "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+      {"name": "vbat",  "x": 0, "y": 1, "h": 0, "w": 0, "flags": 0},
+      {"name": "ppsA",  "x": 0, "y": 1, "h": 0, "w": 0, "flags": 0},
+      {"name": "longG", "x": 0, "y": 1, "h": 0, "w": 0, "flags": 0},
+      {"name": "engineEnable",  "x": 0, "y": 1, "h": 0, "w": 0, "flags": 0}
+    ],
+  "page_name_2": 
+    [
+      {"name": "relFp1",      "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+      {"name": "relFp2",      "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+      {"name": "lam1",        "x": 0, "y": 3, "h": 0, "w": 0, "flags": 0},
+      {"name": "lam2",        "x": 0, "y": 3, "h": 0, "w": 0, "flags": 0},
+      {"name": "fuelMltCll1", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0},
+      {"name": "fuelMltCll2", "x": 0, "y": 0, "h": 0, "w": 0, "flags": 0}
+    ]
+}

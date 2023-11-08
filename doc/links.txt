@@ -1,0 +1,28 @@
+ArduPi CANBus library and tutorial
+https://www.cooking-hacks.com/documentation/tutorials/can-bus-module-shield-tutorial-for-arduino-raspberry-pi-intel-galileo/
+Hyvät esimerkit MCP2515 käyttöön kirjastossa.
+Parempi etsiä suoraan RasPi:lle tarkoitettu kirjasto.
+
+RasPi and CAN bus (MCP2515/TJA1050) chip guide using can-utils library.
+https://www.raspberrypi.org/forums/viewtopic.php?t=141052
+
+Linux-CAN
+https://github.com/linux-can/can-utils
+
+MCP2515
+http://www.microchip.com/wwwproducts/en/en010406
+
+7" inch TFT LCD with shield for arduino due/mega
+https://www.ebay.com/itm/7-inch-TFT-LCD-Resistive-Touch-SSD1963-Shield-for-Arduino-Due-MEGA-2560-Library/291878571831?hash=item43f5518f37:g:FIUAAOSwNRdX3gas
+
+Building example snap for ubuntu-core
+https://github.com/nextcloud/nextcloud-snap/wiki/Building-your-first-snap
+
+device trees
+https://github.com/raspberrypi/firmware/tree/master/boot/overlays
+
+SocketCAN Demo
+https://github.com/JCube001/socketcan-demo/blob/master/src/socketcan-raw-demo.cpp
+
+SocketCAN Readme
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/plain/Documentation/networking/can.txt

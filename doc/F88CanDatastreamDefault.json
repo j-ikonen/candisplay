@@ -1,0 +1,617 @@
+{
+  "Frame 1": {
+    "can_id": 1536,
+    "item_0": {
+      "is_signed": true,
+      "name": "rpm",
+      "transform_type": "none",
+      "unit": "rpm"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "ppsA",
+      "transform_type": "divide",
+      "transform_value": 81.92,
+      "unit": "%"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "vbat",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "V"
+    },
+    "item_3": {
+      "is_signed": true,
+      "name": "longG",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "G"
+    }
+  },
+  "Frame 2": {
+    "can_id": 1537,
+    "item_0": {
+      "is_signed": true,
+      "name": "map1",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "prp1",
+      "transform_type": "none",
+      "unit": "mbar"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "turboSpeed1DeSpiked",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "kRpm"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "SPARE",
+      "transform_type": "none",
+      "unit": ""
+    }
+  },
+  "Frame 3": {
+    "can_id": 1538,
+    "item_0": {
+      "is_signed": true,
+      "name": "map2",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "prp2",
+      "transform_type": "none",
+      "unit": "mbar"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "turboSpeed2DeSpiked",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "kRpm"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "SPARE",
+      "transform_type": "none",
+      "unit": ""
+    }
+  },
+  "Frame 4": {
+    "can_id": 1539,
+    "item_0": {
+      "is_signed": true,
+      "name": "relFp1",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "lam1",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "lambda"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "fuelMltCll1",
+      "transform_type": "divide",
+      "transform_value": 4096,
+      "unit": ""
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "SPARE",
+      "transform_type": "none",
+      "unit": ""
+    }
+  },
+  "Frame 5": {
+    "can_id": 1540,
+    "item_0": {
+      "is_signed": true,
+      "name": "relFp2",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "lam2",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "lambda"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "fuelMltCll2",
+      "transform_type": "divide",
+      "transform_value": 4096,
+      "unit": ""
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "SPARE",
+      "transform_type": "none",
+      "unit": ""
+    }
+  },
+  "Frame 6": {
+    "can_id": 1541,
+    "item_0": {
+      "is_signed": true,
+      "name": "act1",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "ect1",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "egt1",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "SPARE",
+      "transform_type": "none",
+      "unit": ""
+    }
+  },
+  "Frame 7": {
+    "can_id": 1542,
+    "item_0": {
+      "is_signed": true,
+      "name": "act2",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "ect2",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "egt2",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "SPARE",
+      "transform_type": "none",
+      "unit": ""
+    }
+  },
+  "Frame 8": {
+    "can_id": 1543,
+    "item_0": {
+      "is_signed": true,
+      "name": "ccp1",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "ccp2",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "ccp3",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_3": {
+      "is_signed": true,
+      "name": "ccp4",
+      "transform_type": "none",
+      "unit": "mBar"
+    }
+  },
+  "Frame 9": {
+    "can_id": 1544,
+    "item_0": {
+      "is_signed": true,
+      "name": "eop1",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "eop2",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "eop3",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_3": {
+      "is_signed": true,
+      "name": "eop4",
+      "transform_type": "none",
+      "unit": "mBar"
+    }
+  },
+  "Frame 10": {
+    "can_id": 1545,
+    "item_0": {
+      "is_signed": true,
+      "name": "eot",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "ft",
+      "transform_type": "divide",
+      "transform_value": 10,
+      "unit": "degC"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "ecp",
+      "transform_type": "none",
+      "unit": "mBar"
+    },
+    "item_3": {
+      "is_signed": true,
+      "name": "bap",
+      "transform_type": "none",
+      "unit": "mBar"
+    }
+  },
+  "Frame 11": {
+    "can_id": 1546,
+    "item_0": {
+      "is_signed": false,
+      "name": "engineEnable",
+      "transform_type": "state"
+    },
+    "item_1": {
+      "is_signed": false,
+      "name": "calSwitch",
+      "transform_type": "add",
+      "transform_value": 1,
+      "unit": ""
+    },
+    "item_2": {
+      "is_signed": false,
+      "name": "tcSwitch",
+      "transform_type": "add",
+      "transform_value": 1,
+      "unit": ""
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "pitSwitch",
+      "transform_type": "state"
+    }
+  },
+  "Frame 12": {
+    "can_id": 1547,
+    "item_0": {
+      "is_signed": false,
+      "name": "clutchSwitch",
+      "transform_type": "state"
+    },
+    "item_1": {
+      "is_signed": false,
+      "name": "manAutoSwitch",
+      "transform_type": "state"
+    },
+    "item_2": {
+      "is_signed": false,
+      "name": "wow",
+      "transform_type": "state"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "autoStartState",
+      "transform_type": "state"
+    }
+  },
+  "Frame 13": {
+    "can_id": 1548,
+    "item_0": {
+      "is_signed": false,
+      "name": "fuelConsLR",
+      "transform_type": "none",
+      "unit": "Litres"
+    },
+    "item_1": {
+      "is_signed": false,
+      "name": "sensorSwitch",
+      "transform_type": "state"
+    },
+    "item_2": {
+      "is_signed": false,
+      "name": "alsState",
+      "transform_type": "state"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "wgcStrategyActive",
+      "transform_type": "state"
+    }
+  },
+  "Frame 14": {
+    "can_id": 1549,
+    "item_0": {
+      "is_signed": false,
+      "name": "gearCutDogKickCount",
+      "transform_type": "none",
+      "unit": ""
+    },
+    "item_1": {
+      "is_signed": false,
+      "name": "gearCutFailCount",
+      "transform_type": "none",
+      "unit": ""
+    },
+    "item_2": {
+      "is_signed": false,
+      "name": "dbwStatus",
+      "transform_type": "bit_flag",
+      "unit": "(bit flags)"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "knockStatus",
+      "transform_type": "bit_flag",
+      "unit": "(bit flags)"
+    }
+  },
+  "Frame 15": {
+    "can_id": 1550,
+    "item_0": {
+      "is_signed": false,
+      "name": "gearV",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "V"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "gear",
+      "transform_type": "state"
+    },
+    "item_2": {
+      "is_signed": false,
+      "name": "paddleSwitch",
+      "transform_type": "state"
+    },
+    "item_3": {
+      "is_signed": false,
+      "name": "gsp",
+      "transform_type": "none",
+      "unit": "mBar"
+    }
+  },
+  "Frame 16": {
+    "can_id": 1551,
+    "item_0": {
+      "is_signed": true,
+      "name": "flSpeed",
+      "transform_type": "multiply",
+      "transform_value": 0.036,
+      "unit": "kph"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "frSpeed",
+      "transform_type": "multiply",
+      "transform_value": 0.036,
+      "unit": "kph"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "rlSpeed",
+      "transform_type": "multiply",
+      "transform_value": 0.036,
+      "unit": "kph"
+    },
+    "item_3": {
+      "is_signed": true,
+      "name": "rrSpeed",
+      "transform_type": "multiply",
+      "transform_value": 0.036,
+      "unit": "kph"
+    }
+  },
+  "Frame 17": {
+    "can_id": 1552,
+    "item_0": {
+      "is_signed": true,
+      "name": "swa",
+      "transform_type": "divide",
+      "transform_value": 32,
+      "unit": "deg"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "latG",
+      "transform_type": "divide",
+      "transform_value": 1000,
+      "unit": "G"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "vehicleSpeed",
+      "transform_type": "multiply",
+      "transform_value": 0.036,
+      "unit": "kph"
+    },
+    "item_3": {
+      "is_signed": true,
+      "name": "drivenSpeed",
+      "transform_type": "multiply",
+      "transform_value": 0.036,
+      "unit": "kph"
+    }
+  },
+  "Frame 18": {
+    "can_id": 1553,
+    "item_0": {
+      "is_signed": true,
+      "name": "wheelSpin",
+      "transform_type": "divide",
+      "transform_value": 10.24,
+      "unit": "%"
+    },
+    "item_1": {
+      "is_signed": true,
+      "name": "tcSpinTarg",
+      "transform_type": "divide",
+      "transform_value": 10.24,
+      "unit": "%"
+    },
+    "item_2": {
+      "is_signed": true,
+      "name": "tcSpinErr",
+      "transform_type": "divide",
+      "transform_value": 10.24,
+      "unit": "%"
+    },
+    "item_3": {
+      "is_signed": true,
+      "name": "tcTrq",
+      "transform_type": "divide",
+      "transform_value": 10.24,
+      "unit": "%"
+    }
+  },
+  "state_data": {
+    "engineEnable": 
+      [
+        {"value": 0, "state": "OK"},
+        {"value": 1, "state": "SWOFF"},
+        {"value": 100, "state": "EOPTRIP"},
+        {"value": 101, "state": "CCPTRIP"}
+      ],
+    "pitSwitch": 
+      [
+        {"value": 0, "state": "OFF"},
+        {"value": 1, "state": "ON"}
+      ],
+    "clutchSwitch": 
+      [
+        {"value": 0, "state": "OFF"},
+        {"value": 1, "state": "ON"}
+      ],
+    "manAutoSwitch": 
+      [
+        {"value": 0, "state": "MANUAL"},
+        {"value": 1, "state": "AUTO"}
+      ],
+    "wow": 
+      [
+        {"value": 0, "state": "OFF"},
+        {"value": 1, "state": "ON"}
+      ],
+    "autoStartState": 
+      [
+        {"value": 0, "state": "OFF"},
+        {"value": 1, "state": "ENA"},
+        {"value": 2, "state": "ARMED"},
+        {"value": 3, "state": "START"},
+        {"value": 4, "state": "FAIL"}
+      ],
+    "sensorSwitch": 
+      [
+        {"value": 0, "state": "OFF"},
+        {"value": 1, "state": "ON"}
+      ],
+    "alsState": 
+      [
+        {"value": 0, "state": "OFF"},
+        {"value": 1, "state": "START"},
+        {"value": 2, "state": "ON"},
+        {"value": 3, "state": "SD"},
+        {"value": 4, "state": "SD"},
+        {"value": 5, "state": "TO"},
+        {"value": 100, "state": "DIS"}
+      ],
+    "wgcStrategyActive": 
+      [
+        {"value": 0, "state": "OLD"},
+        {"value": 1, "state": "NEW"},
+        {"value": 2, "state": "STD"}
+      ],
+    "gear": 
+      [
+        {"value": 0, "state": "U"},
+        {"value": 1, "state": "R"},
+        {"value": 2, "state": "N"},
+        {"value": 3, "state": "1"},
+        {"value": 4, "state": "2"},
+        {"value": 5, "state": "3"},
+        {"value": 6, "state": "4"},
+        {"value": 7, "state": "5"},
+        {"value": 8, "state": "6"},
+        {"value": 9, "state": "7"},
+        {"value": 10, "state": "8"}
+      ],
+    "paddleSwitch": 
+      [
+        {"value": 0, "state": "NONE"},
+        {"value": 1, "state": "DOWN"},
+        {"value": 2, "state": "UP"},
+        {"value": 3, "state": "BOTH"}
+      ]
+  },
+  "bit_flag_data": {
+    "dbwStatus": 
+      [
+        {"value": 0, "state": "PPS"},
+        {"value": 1, "state": "TPS1"},
+        {"value": 2, "state": "TPS2"},
+        {"value": 3, "state": "DBW1"},
+        {"value": 4, "state": "DBW2"}
+      ],
+    "knockStatus": 
+      [
+        {"value": 0, "state": "cyl1"},
+        {"value": 1, "state": "cyl2"},
+        {"value": 2, "state": "cyl3"},
+        {"value": 3, "state": "cyl4"},
+        {"value": 4, "state": "cyl5"},
+        {"value": 5, "state": "cyl6"},
+        {"value": 6, "state": "cyl7"},
+        {"value": 7, "state": "cyl8"},
+        {"value": 8, "state": "cyl9"},
+        {"value": 9, "state": "cyl10"},
+        {"value": 10, "state": "cyl11"},
+        {"value": 11, "state": "cyl12"},
+        {"value": 12, "state": "cyl13"},
+        {"value": 13, "state": "cyl14"},
+        {"value": 14, "state": "cyl15"},
+        {"value": 15, "state": "cyl16"}
+      ]
+  }
+}
